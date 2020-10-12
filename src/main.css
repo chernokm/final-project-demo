@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 20px; /* font size is a property that is inherited */
+}
+
+
+body {
+    /* multiple style declarations can be inside the same block */  
+    background: url("./images/congruent_outline.png"); /* background color (self explanatory) */
+    color: rgb(46, 165, 35); /* text color */
+
+    max-width: 800px; 
+    margin: 0 auto; /* 0 margin top and bottom. auto margin left and right | centers block elements */
+    /* font-family: "Century Gothic", sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+a {
+    transition: color 0.2s, background-color 0.2s;
+}
+/* unvisted link - default state | :link is a pseudo class */
+a:link {
+    background-color: transparent;
+    color: rgb(105, 185, 185);
+}
+/* visted link */
+a:visited {
+    background-color: transparent;
+    color: rgb(63, 143, 143);
+}
+/*focused link */
+a:focus {
+    background-color:  rgb(63, 143, 143);
+    color: rgb(105, 185, 185);;
+}
+/*hovered link */
+a:hover {
+    background-color: rgb(63, 143, 143);
+    color: rgb(105, 185, 185);
+}
+
+.welcome-message {
+    font-size: 1.25rem;
+}

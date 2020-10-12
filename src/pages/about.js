@@ -12,10 +12,10 @@ function AboutPage() {
             </ul>
             <h2>About the game</h2>
             <p>This is a choose your own way adventure game. You are an adventurer sent by the guild
-            to explore a newly found dungeon. The dungeon is named after an old Demon King named
-            Sora. It's your job to try and make it through the dungeon and find what lies at the
-            end of it. Your choices throughout the game will shape where you end up, so choose wisely
-            and have fun!
+            to explore a rookie dungeon. The dungeon is named after an old Demon King named
+            Sora. It's your job to make it through the dungeon and find what lies at the
+            end of it. Depending on what you find at the end of the dungeon will determine what class
+            the guild gives you. Good luck!
             </p>
         </main>
     );

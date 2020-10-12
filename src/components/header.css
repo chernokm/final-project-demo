@@ -1,0 +1,12 @@
+.header {
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+.header__logo { /*changes apply only to ID 'logo' */
+    font-size: 2rem;
+}
+
+.header__nav {
+    font-size: 1.25rem;
+}
